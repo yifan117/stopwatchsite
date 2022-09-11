@@ -589,8 +589,8 @@ var init__2 = __esm({
   ".svelte-kit/output/server/nodes/1.js"() {
     index2 = 1;
     component2 = async () => (await Promise.resolve().then(() => (init_error_svelte(), error_svelte_exports))).default;
-    file2 = "_app/immutable/components/error.svelte-98cd45b0.js";
-    imports2 = ["_app/immutable/components/error.svelte-98cd45b0.js", "_app/immutable/chunks/index-1fab3784.js", "_app/immutable/chunks/singletons-9f62219d.js"];
+    file2 = "_app/immutable/components/error.svelte-566b2d84.js";
+    imports2 = ["_app/immutable/components/error.svelte-566b2d84.js", "_app/immutable/chunks/index-1fab3784.js", "_app/immutable/chunks/singletons-8e7e9ec9.js"];
     stylesheets2 = [];
   }
 });
@@ -3104,7 +3104,7 @@ var manifest = {
   assets: /* @__PURE__ */ new Set(["favicon.png"]),
   mimeTypes: { ".png": "image/png" },
   _: {
-    entry: { "file": "_app/immutable/start-926f48df.js", "imports": ["_app/immutable/start-926f48df.js", "_app/immutable/chunks/index-1fab3784.js", "_app/immutable/chunks/singletons-9f62219d.js"], "stylesheets": [] },
+    entry: { "file": "_app/immutable/start-9b8fb5f9.js", "imports": ["_app/immutable/start-9b8fb5f9.js", "_app/immutable/chunks/index-1fab3784.js", "_app/immutable/chunks/singletons-8e7e9ec9.js"], "stylesheets": [] },
     nodes: [
       () => Promise.resolve().then(() => (init__(), __exports)),
       () => Promise.resolve().then(() => (init__2(), __exports2)),

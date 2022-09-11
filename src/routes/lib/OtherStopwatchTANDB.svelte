@@ -121,6 +121,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        text-align: center;
     }
     
     .contents {
@@ -138,8 +139,8 @@
         height: 45vh;
         width: 100vw;
         display: flex;
-        align-items: center;
-        justify-content: space-evenly;
+        align-items: ce;
+        justify-content: space-around;
         font-family: inherit;
     }
     
@@ -156,9 +157,9 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: space-around;
         font-weight: 1000;
-        font-size: 10rem;
+        font-size: 15rem;
     }
     
     small {
@@ -170,8 +171,8 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
-        width: 30vw;
-        height: 10vh;
+        width: 70vw;
+        height: 2vh;
         margin-top: 5vh;
         border-radius: 5px;
     }
@@ -179,14 +180,14 @@
     button {
         background-color: #A9A9A9;
         border-radius: 50px;
-        height: 8vh;
-        width: 8vw;
+        height: 16vh;
+        width: 16vw;
         display: flex;
         align-items: center;
         align-content: center;
         justify-content: center;
-        font-size: 1.5rem;
-        font-weight: 600;
+        font-size: 3rem;
+        font-weight: 800;
         font-family: inherit;
         border: 10px;
     }
