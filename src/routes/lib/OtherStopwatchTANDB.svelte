@@ -139,7 +139,6 @@
         height: 45vh;
         width: 100vw;
         display: flex;
-        align-items: ce;
         justify-content: space-around;
         font-family: inherit;
     }
@@ -152,8 +151,8 @@
     }
     
     .timeUnit {
-        width: 230px;
-        height: 270px;
+        width: 400px;
+        height: 330px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -180,8 +179,8 @@
     button {
         background-color: #A9A9A9;
         border-radius: 50px;
-        height: 16vh;
-        width: 16vw;
+        height: 13vh;
+        width: 13vw;
         display: flex;
         align-items: center;
         align-content: center;
