@@ -95,7 +95,7 @@
                     {/if}
                 </div>
     
-                    <small>Centiseconds</small>
+                <small>Centiseconds</small>
             </div>
         </div>
     
@@ -116,12 +116,11 @@
     .colon {
         font-weight: 1000;
         font-size: 10rem;
-        height: 200px;
-        width: 50px;
+        min-width: 50px;
         display: flex;
         align-items: center;
         justify-content: center;
-        text-align: center;
+        flex-shrink: 0;
     }
     
     .contents {
@@ -144,15 +143,16 @@
     }
     
     .counter {
-        height: 190px;
+        min-height: 230px;
         display: flex;
         align-items: center;
         justify-content: center;
+        font-size: 20rem;
     }
     
     .timeUnit {
-        width: 400px;
-        height: 330px;
+        min-height: 380px;
+        min-width: 400px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -162,7 +162,10 @@
     }
     
     small {
+        display: flex;
         font-size: large;
+        min-height: 40px;
+        align-items: center;
     }
     
     .buttons {
@@ -170,9 +173,8 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
-        width: 70vw;
-        height: 2vh;
-        margin-top: 5vh;
+        min-width: 100vw;
+        min-height: auto;
         border-radius: 5px;
     }
     
