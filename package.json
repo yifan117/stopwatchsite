@@ -33,6 +33,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"svelte-material-icons": "^2.0.4"
+		"svelte-material-icons": "^2.1.0"
 	}
 }
